@@ -1,0 +1,36 @@
+button{
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding: 8px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 0.1rem solid transparent;
+    cursor: pointer;
+    color: white;
+}
+svg{
+    margin-left: 4px;
+}
+.purple{
+    background-color: #4C3F91;
+}
+.purple:hover{
+    background-color: white;
+    border:1.5px solid #4C3F91;
+    color:#4C3F91;
+}
+.pink{
+    background-color: #FF5677;
+}
+.pink:hover{
+    background-color: white;
+    border:1.5px solid #FF5677;
+    color:#FF5677;
+}
+@media screen and (max-width:767px){
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

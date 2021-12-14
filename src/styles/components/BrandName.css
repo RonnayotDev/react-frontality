@@ -1,0 +1,16 @@
+.brand{
+    cursor: pointer;
+}
+.brand span{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4C3F91;
+    border: 1.5px solid #FF5677;
+    padding: 10px;
+    border-radius: 0.3rem;
+    font-size: xx-large;
+}
+.footer span{
+    color: white;
+    border-color: white;
+}

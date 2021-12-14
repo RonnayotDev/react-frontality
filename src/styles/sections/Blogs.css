@@ -1,0 +1,30 @@
+.blogs-container{
+    
+}
+.container-blogs{
+    margin: 0 10%;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 1.5rem;
+    gap: 3rem;
+}
+.title-container-blogs p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#808080;
+}
+.button-container-blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+@media screen and (max-width:767px) {
+    .blogs{
+        display: block;
+        
+    }
+}

@@ -1,0 +1,72 @@
+.container-why{
+    margin: 0 10%;
+}
+.subTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subTitle p {
+    color: #808080;
+}
+.content-why{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 1rem;
+}
+.video{
+    height: 18rem;
+    width: 100%;
+    background-image: url("../../asset/videoImage.jpg");
+    background-size: cover;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video svg{
+    color: white;
+    font-size: 7rem;
+    cursor: pointer;
+}
+.reasons{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom:2rem;
+}
+ul.why-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+ul.why-ul li{
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 1.5rem;
+}
+ul.why-ul li:before{
+    content: "";
+    position:absolute;
+    top:-4px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../asset/check-circle.svg");
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:767px) {
+    .content-why{
+        display: block;
+        margin-top: 1rem;
+    }
+    ul.why-ul li{
+        margin-top: 1rem;
+    }
+    ul.why-ul li:before{
+        margin-top: 1rem;
+    }
+}
+

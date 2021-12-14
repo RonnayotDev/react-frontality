@@ -1,0 +1,21 @@
+.title{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.title h2{
+    margin-bottom: 0.7rem;
+    font-size: xx-large;
+    color:#4C3F91;
+}
+.line{
+    height: 0.3rem;
+    width: 3rem;
+    background-color: 0.1rem;
+    background-color: #FF5677;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

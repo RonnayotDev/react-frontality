@@ -1,0 +1,21 @@
+.footer-container{
+    background-color: #333335;
+    color: white;
+    height: fit-content;
+    padding: 3rem 0;
+}
+.main-container-footer{
+    margin: 0 10%;
+    padding: 2.5rem;
+}
+.news-letter p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-letter p.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}

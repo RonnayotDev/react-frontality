@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+.collapseble-button{
+    display: none;
+}
+.col{
+    margin: 20px 0;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+}
+li a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color:#FF5677;
+}
+@media screen and (max-width:767px){
+    nav{
+        display: none;
+    }
+    .navbar.active nav{
+        display: block;
+    }
+    .col{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 20px;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+    }
+    .collapseble-button{
+        display: block;
+        font-size: 24px;
+    }
+    .links ul{
+        flex-direction: column;
+        margin: 0.3rem 0rem;
+    }
+    .links ul li{
+        margin: 2rem 0 0 0;
+    }
+    .links ul li a{
+        font-size: x-large;
+    }
+
+}

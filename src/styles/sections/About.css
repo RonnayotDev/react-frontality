@@ -1,0 +1,25 @@
+.about-container{
+    background-color: #efe8ff;
+}
+.container-about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 10%;
+    padding: 5rem 0;
+}
+.details{
+    margin-bottom: 2rem;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+@media screen and (max-width:767px){
+.container-about{
+    display: block;
+}
+.cards{
+    grid-template-columns: 0;
+}
+}
